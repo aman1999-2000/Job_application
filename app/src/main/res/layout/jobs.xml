@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jobs">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="JOBS PROFILE"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:id="@+id/desc1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="NAME: AMAN SHARMA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="JOB TITLE: SOFTWARE ENGINEER"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Location: DELHI"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CONTACT: 9667098943"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="EMAIL: amansharma@gmail.com"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/desc2"
+
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"
+            android:text="  NAME:ROHIT SHARMA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="    JOB TITLE: WEB DEVELOPMENT"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Location: DELHI"
+            android:layout_marginLeft="70dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CONTACT: 9667098999"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="  EMAIL:sharmarohit123@gmail.com"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/desc3"
+
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="NAME: AJAY SHARMA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="JOB TITLE: TESTING"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Location: DELHI"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CONTACT: 9667090934"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="EMAIL: sharmaajay12@gmail.com"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/desc4"
+
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="650dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="NAME: PRINCE KUMAR"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="JOB TITLE: QUALITY ASSURANCE"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Location: KARNAL"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="CONTACT: 9600098943"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="EMAIL: kumarprikshit@gmail.com"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        ></TextView></LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/desc5"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="850dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="NAME: HARRY RAJPUT"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="JOB TITLE: SOFTWARE ENGINEER"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Location: GURGAON"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CONTACT: 9667000002"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="EMAIL: rajputharry67@gmail.com"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/desc7"
+        android:layout_width="320dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1050dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="NAME: ASHISH"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="JOB TITLE: SOFTWARE ENGINEER"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Location: RHOTAK"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CONTACT: 9667098001"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="EMAIL: ashishkumar55@gmail.com"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/desc8"
+        android:layout_width="320dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1050dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="NAME: SHUBHAM SHARMA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="JOB TITLE:  PRODUCT ENGINEER"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Location: DELHI"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CONTACT: 9667010023"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="EMAIL: shubhamsharma22@gmail.com"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            ></TextView>
+    </LinearLayout>
+
+</RelativeLayout>
